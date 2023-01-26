@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_secret",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getSecret",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"works/final.sol": "Final"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"works/final.sol": {
+			"keccak256": "0x3bd4f40bbc74ae8b09a3034c620ef4869c1a3368099833180bb18b0aec85bcd5",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://34b3fa0628853dd8d1718df670d64a0673e25791ed2e91df9a8614da59572f88",
+				"dweb:/ipfs/QmV56pveEjCE76d8Z8vUPwAgGTzX5RbwCcwnuu8Bcfv6jc"
+			]
+		}
+	},
+	"version": 1
+}

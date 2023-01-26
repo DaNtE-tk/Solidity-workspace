@@ -1,0 +1,153 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "total_dabbcoins_bought",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "investor",
+						"type": "address"
+					},
+					{
+						"name": "dabbcoins_to_sell",
+						"type": "uint256"
+					}
+				],
+				"name": "sell_dabcoins",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "investor",
+						"type": "address"
+					},
+					{
+						"name": "inr_invested",
+						"type": "uint256"
+					}
+				],
+				"name": "buy_dabbcoins",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "investor",
+						"type": "address"
+					}
+				],
+				"name": "equity_in_inr",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "investor",
+						"type": "address"
+					}
+				],
+				"name": "equity_in_dabbcoins",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "inr_to_dabbcoin",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "max_dabbcoins",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"dabbcoin_ico.sol": "dabbcoin_ico"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"dabbcoin_ico.sol": {
+			"keccak256": "0x02fd1fe2f34d3b00f5e45b3b83cfdcf86ba43990049fb1a9d8b88e2c77b1e846",
+			"urls": [
+				"bzzr://d44563c2af48d635ef2a65fb911fecc140571b1e3c712db3b95278654d7ab536"
+			]
+		}
+	},
+	"version": 1
+}
